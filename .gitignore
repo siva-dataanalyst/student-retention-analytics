@@ -1,8 +1,7 @@
 data/raw/*
 !data/raw/.gitkeep
-
+!data/raw/data.csv
 *.pbix.bak
 ~$*.pbix
-
 .DS_Store
 Thumbs.db
