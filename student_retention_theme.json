@@ -1,0 +1,59 @@
+{
+  "name": "Student Retention Analytics",
+  "dataColors": [
+    "#D8342C",
+    "#3B9E4C",
+    "#378ADD",
+    "#0F6E56",
+    "#EF9F27",
+    "#7F77DD",
+    "#993C1D",
+    "#26215C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#0C447C",
+  "good": "#3B9E4C",
+  "bad": "#D8342C",
+  "neutral": "#EF9F27",
+  "maximum": "#0C447C",
+  "center": "#EF9F27",
+  "minimum": "#D8342C",
+  "null": "#B4B2A9",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }],
+            "border": [{ "show": true, "color": { "solid": { "color": "#E1E1E1" } }, "radius": 8 }]
+          }
+        ]
+      },
+      "title": {
+        "*": [
+          {
+            "fontColor": [{ "solid": { "color": "#0C2340" } }],
+            "fontSize": [13],
+            "bold": [true]
+          }
+        ]
+      },
+      "categoryAxis": {
+        "*": [{ "fontSize": [10], "labelColor": [{ "solid": { "color": "#605E5C" } }] }]
+      },
+      "valueAxis": {
+        "*": [{ "fontSize": [10], "labelColor": [{ "solid": { "color": "#605E5C" } }] }]
+      },
+      "labels": {
+        "*": [{ "fontSize": [10], "color": [{ "solid": { "color": "#252423" } }] }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "fontSize": [28], "bold": [true] }],
+        "categoryLabels": [{ "fontSize": [12], "color": [{ "solid": { "color": "#605E5C" } }] }]
+      }
+    }
+  }
+}
